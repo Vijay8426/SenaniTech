@@ -15,7 +15,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="bg-gray-100 border-gray-200 dark:border-gray-600 dark:bg-gray-900 shadow bg-gray">
+        <nav className="bg-gray-100 border-gray-200 shadow">
             <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-2">
                 <Link to="/">
                     <img src={Image} style={{ width: '180px' }} alt="Company Logo" />
@@ -23,7 +23,7 @@ const Navbar = () => {
                 <button
                     id="mega-menu-toggle"
                     type="button"
-                    className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                    className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
                     aria-controls="mega-menu-full"
                     aria-expanded={isMenuOpen ? 'true' : 'false'}
                     aria-label="Open main menu"
@@ -44,11 +44,11 @@ const Navbar = () => {
                     id="mega-menu-full"
                     className={`items-center justify-between font-medium ${isMenuOpen ? 'block' : 'hidden'} w-full md:flex md:w-auto md:order-1`}
                 >
-                    <ul className="flex flex-col p-4 md:p-0 mt-4 text-lg border border-gray-100 rounded-lg bg-gray-100 md:space-x-20 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <ul className="flex flex-col p-4 md:p-0 mt-4 text-lg border border-gray-100 rounded-lg bg-gray-100 md:space-x-20 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
                         <li>
                             <Link
                                 to="/"
-                                className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
+                                className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0"
                                 aria-current="page"
                             >
                                 Home
@@ -111,7 +111,7 @@ const Navbar = () => {
                         <li>
                             <Link
                                 to="/about"
-                                className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
+                                className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0"
                             >
                                 About
                             </Link>
@@ -119,7 +119,7 @@ const Navbar = () => {
                         <li>
                             <Link
                                 to="/contact"
-                                className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
+                                className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0"
                             >
                                 Contact
                             </Link>
