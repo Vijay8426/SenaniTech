@@ -82,7 +82,7 @@ const Navbar = () => {
                                     <ul className="py-1" aria-labelledby="dropdownLargeButton">
                                         <li>
                                             <Link
-                                                to="/pcb"
+                                                to="/services/pcb"
                                                 className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
                                             >
                                                 PCB Design
@@ -98,7 +98,7 @@ const Navbar = () => {
                                         </li>
                                         <li>
                                             <Link
-                                                to="/manufacturing-support"
+                                                to="/services/manufacturing"
                                                 className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
                                             >
                                                 Manufacturing Support

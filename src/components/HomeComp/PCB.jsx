@@ -18,13 +18,13 @@ function PCB() {
         <h2 className="news-card__title">Reference Design Development </h2>
         <div className="news-card__details-wrapper">
           <p className="news-card__excerpt">Working in conjunction with Applications Engineering and Product Marketing groups at its semiconductor clients, PatternPCB develops &hellip;</p>
-          <Link href="#" className="news-card__read-more">Read more <i className="fas fa-long-arrow-alt-right"></i></Link>
+          <Link to='/services/pcb/refdev' className="news-card__read-more">Read more <i className="fas fa-long-arrow-alt-right"></i></Link>
         </div>
       </div>
     </div>
   
     <div className="news-card">
-      <Link href="./ATE.html" className="news-card__card-link"></Link>
+      <Link to='/services/pcb/ate' className="news-card__card-link"></Link>
       <img src={Image2} alt="" className="news-card__image"/>
       <div className="news-card__text-wrapper">
         <h2 className="news-card__title">ATE Solution</h2>
