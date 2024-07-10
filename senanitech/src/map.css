@@ -1,0 +1,10 @@
+#map {
+    height: 50%;
+    min-height: 300px; /* Ensure a minimum height for the map on smaller screens */
+}
+
+@media (max-width: 768px) {
+    #map {
+        height: 300px; /* Set a fixed height for the map on mobile devices */
+    }
+}
