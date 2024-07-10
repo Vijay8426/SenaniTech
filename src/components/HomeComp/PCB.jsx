@@ -9,7 +9,7 @@ import Image5 from '../../image-org/PCB/ODM Solution.jpg';
 import Image6 from '../../image-org/PCB/Mass Fabrication.jpg'
 function PCB() {
   return (
-    <div className="content-wrapper">
+    <div className="content-wrapper py-8" >
   
     <div className="news-card">
       <Link href="./ReferenceDevelopment.html" className="news-card__card-link"></Link>
