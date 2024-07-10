@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './components/Home';
 import Contact from './components/Contact';
+import PCB from './components/HomeComp/PCB';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           {/* Define routes for each page/component */}
           <Route path="/" element={<Home />} />
+          <Route path="/pcb" element={<PCB />} />
           <Route path="/contact" element={<Contact />} />
           {/* Add more routes as needed */}
         </Routes>
