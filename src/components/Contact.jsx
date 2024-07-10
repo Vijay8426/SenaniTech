@@ -10,12 +10,12 @@ function Contact() {
   const longitude = -0.09;
 
   return (
-    <form method="post">
+    <form method="post " className='bg-gray-100'>
       <section className="py-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-10">
-            <div>
-              <div className="bg-white p-6 rounded-lg shadow-lg h-1/3">
+          <div className="flex lg:flex-row flex-col gap-10">
+            <div className="flex-1 flex flex-col">
+              <div className="bg-white p-6 rounded-lg shadow-lg mb-6 flex-grow">
                 <h1 className="manrope-regular text-black text-4xl font-bold leading-10 mb-6">Contact us</h1>
                 <div className="space-y-8">
                   <Link to="tel:470-601-1911" className="flex items-center">
@@ -59,17 +59,15 @@ function Contact() {
                 </div>
               </div>
 
-                              <MapContainer center={[latitude, longitude]} zoom={13} ref={mapRef}  className='h-2/3' id='map'>
+              <MapContainer center={[latitude, longitude]} zoom={13} ref={mapRef} className='flex-grow h-64 lg:h-full' id='map'>
                 <TileLayer
                   attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                   url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 />
               </MapContainer>
-
-
             </div>
 
-            <div className="bg-gray-50 p-5 lg:p-11 lg:rounded-r-2xl rounded-2xl shadow-lg">
+            <div className="bg-gray-50 p-5 lg:p-11 lg:rounded-r-2xl rounded-2xl shadow-lg flex-1 flex flex-col">
               <h2 className="text-indigo-600 font-manrope text-4xl font-semibold leading-10 mb-11">Send Us A Message</h2>
               <input
                 type="text"
@@ -95,11 +93,11 @@ function Contact() {
               <div className="flex items-center justify-center w-full pb-5">
                 <label
                   htmlFor="dropzone-file"
-                  className="flex flex-col items-center justify-center w-full h-64 border-2 border-gray-300 border-dashed rounded-lg cursor-pointer bg-gray-50  dark:bg-gray-700 hover:bg-gray-100 dark:border-gray-600 dark:hover:border-gray-500 dark:hover:bg-gray-600"
+                  className="flex flex-col items-center justify-center w-full h-64 border-2 border-gray-300 border-dashed rounded-lg cursor-pointer bg-gray-50 hover:bg-gray-100"
                 >
                   <div className="flex flex-col items-center justify-center pt-5 pb-6">
                     <svg
-                      className="w-8 h-8 mb-4 text-gray-500 dark:text-gray-400"
+                      className="w-8 h-8 mb-4 text-gray-500"
                       aria-hidden="true"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -113,10 +111,10 @@ function Contact() {
                         d="M13 13h3a3 3 0 0 0 0-6h-.025A5.56 5.56 0 0 0 16 6.5 5.5 5.5 0 0 0 5.207 5.021C5.137 5.017 5.071 5 5 5a4 4 0 0 0 0 8h2.167M10 15V6m0 0L8 8m2-2 2 2"
                       />
                     </svg>
-                    <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
+                    <p className="mb-2 text-sm text-gray-500">
                       <span className="font-semibold">Click to upload</span> or drag and drop
                     </p>
-                    <p className="text-xs text-gray-500 dark:text-gray-400">SVG, PNG, JPG or GIF (MAX. 800x400px)</p>
+                    <p className="text-xs text-gray-500">SVG, PNG, JPG or GIF (MAX. 800x400px)</p>
                   </div>
                   <input id="dropzone-file" type="file" className="hidden" />
                 </label>
@@ -137,12 +135,7 @@ function Contact() {
           </div>
         </div>
       </section>
-      <p className="leading-relaxed text-xl text-gray-900 mt-8 px-4 sm:px-6 lg:px-8">
-        We use VeilMail.io to{' '}
-        <Link className="font-medium text-blue-600 dark:text-blue-500 hover:underline" to="https://veilmail.io">
-          hide email address from spammers
-        </Link>
-      </p>
+
     </form>
   );
 }
