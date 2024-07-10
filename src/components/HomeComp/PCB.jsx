@@ -12,7 +12,7 @@ function PCB() {
     <div className="content-wrapper py-8" >
   
     <div className="news-card">
-      <Link href="./ReferenceDevelopment.html" className="news-card__card-link"></Link>
+      <Link to='/services/pcb/refdev' className="news-card__card-link"></Link>
       <img src={Image1} alt="" className="news-card__image"/>
       <div className="news-card__text-wrapper">
         <h2 className="news-card__title">Reference Design Development </h2>
@@ -36,7 +36,7 @@ function PCB() {
     </div>
   
     <div className="news-card">
-      <Link href="./Reliablity.html" className="news-card__card-link"></Link>
+      <Link to='/services/pcb/reliablity' className="news-card__card-link"></Link>
       <img src={Image3} alt="" className="news-card__image"/>
       <div className="news-card__text-wrapper">
         <h2 className="news-card__title">Reliability Engineering & Burn-in</h2>
@@ -47,7 +47,7 @@ function PCB() {
       </div>
     </div>
     <div className="news-card">
-      <Link href="./Manufacturing&npi.html" className="news-card__card-link"></Link>
+      <Link to='/services/pcb/npi' className="news-card__card-link"></Link>
       <img src={Image4} alt="" className="news-card__image"/>
       <div className="news-card__text-wrapper">
         <h2 className="news-card__title">Contract Manufacturing & NPI Solutions</h2>
@@ -59,7 +59,7 @@ function PCB() {
     </div>
   
     <div className="news-card">
-      <Link href="./ODM.html" className="news-card__card-link"></Link>
+      <Link to='/services/pcb/odm' className="news-card__card-link"></Link>
       <img src={Image5} alt="" className="news-card__image"/>
       <div className="news-card__text-wrapper">
         <h2 className="news-card__title">ODM Solutions </h2>

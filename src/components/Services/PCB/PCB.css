@@ -1,0 +1,20 @@
+#ATE{
+     min-height: 500px;
+      background-image: url('../../../image-org/PCB/ATE\ Board\ Solution.jpeg')
+}
+#RefDev{
+    min-height: 500px;
+     background-image: url('../../../image-org/PCB/Reference\ Design\ Development.png')
+}
+#Reliablity{
+    min-height: 500px; 
+    background-image: url('../../../image-org/PCB/Burn\ in\ Boards2.jpg')
+    
+}
+#NPI{
+     min-height: 500px; 
+     background-image: url('../../../image-org/PCB/In\ Circuit\ Testing.jpg')
+}
+#ODM{
+    background-image: url('../../../image-org/PCB/ODM Solution.jpg')
+}
