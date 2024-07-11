@@ -44,7 +44,7 @@ const Navbar = () => {
                     id="mega-menu-full"
                     className={`items-center justify-between font-medium ${isMenuOpen ? 'block' : 'hidden'} w-full md:flex md:w-auto md:order-1`}
                 >
-                    <ul className="flex flex-col p-4 md:p-0 mt-4  border text-xl border-gray-100 rounded-lg bg-gray-200 md:space-x-20 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
+                    <ul className="flex flex-col p-4 md:p-0 mt-4  border sm:text-sm md:text-xl border-gray-100 rounded-lg bg-gray-200 md:space-x-20 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
                         <li>
                             <Link
                                 to="/"

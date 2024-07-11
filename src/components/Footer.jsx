@@ -12,29 +12,29 @@ const Footer = () => {
               <Link href="javascript:void(0)" className="mb-6 inline-block  text-center">
                 <img src={Image} alt="logo" className="max-w-full" />
               </Link>
-              <p className="text-base  font-semibold  text-body-color mb-7 w-2/3 2xl:text-xl text-black">
+              <p className="text-sm md:text-base  font-semibold  text-body-color mb-7 w-2/3 2xl:text-xl text-black">
                 Senanitech is the embedded industry's innovation catalyst, fueling business transformation worldwide.
               </p>
             </div>
           </div>
           <div className="w-full xl:px-4 sm:w-1/2 lg:w-2/12">
             <div className="w-full mb-10">
-              <h4 className="text-lg median:text-xl  font-bold text-black mb-2">
+              <h4 className=" sm:text-md md:text-lg median:text-xl  font-bold text-black mb-2">
                 Services
               </h4>
               <ul className="space-y-2 median:space-y-4 text-gray-900">
                 <li>
-                  <Link href="javascript:void(0)" className="inline-block font-semibold text-md xl:text-[0.9rem] median:text-[1rem] leading-loose text-body-color hover:text-primary">
+                  <Link href="javascript:void(0)" className="inline-block font-semibold text-sm md:text-base xl:text-[0.9rem] median:text-[1rem] leading-loose text-body-color hover:text-primary">
                     PCB Design
                   </Link>
                 </li>
                 <li>
-                  <Link href="javascript:void(0)" className="inline-block font-semibold text-base xl:text-[0.9rem] median:text-[1rem] leading-loose text-body-color hover:text-primary">
+                  <Link href="javascript:void(0)" className="inline-block font-semibold text-sm md:text-base xl:text-[0.9rem] median:text-[1rem] leading-loose text-body-color hover:text-primary">
                     Production Engineering
                   </Link>
                 </li>
                 <li>
-                  <Link href="javascript:void(0)" className="inline-block font-semibold text-base xl:text-[0.9rem] median:text-[1rem] leading-loose text-body-color hover:text-primary">
+                  <Link href="javascript:void(0)" className="inline-block font-semibold text-sm md:text-base xl:text-[0.9rem] median:text-[1rem] leading-loose text-body-color hover:text-primary">
                     Manufacturing Support
                   </Link>
                 </li>
@@ -43,7 +43,7 @@ const Footer = () => {
           </div>
           <div className="w-full sm:w-1/2 lg:w-3/12 xl:pl-16">
             <div className="w-full mb-10">
-              <h4 className="text-lg median:text-xl font-bold text-black mb-2 median:mb-4">
+              <h4 className="sm:text-sm md:text-lg median:text-xl font-bold text-black mb-2 median:mb-4">
                 Contact
               </h4>
               <ul className="space-y-5 median:space-y-6 text-gray-900">
@@ -52,7 +52,7 @@ const Footer = () => {
                     <span className="mr-3">
                       <i className="fa fa-phone" aria-hidden="true"></i>
                     </span>
-                    <span>+91 9486470817</span>
+                    <span className='font-semibold'>+91 9486470817</span>
                   </p>
                 </li>
                 <li>
@@ -60,7 +60,7 @@ const Footer = () => {
                     <span className="mr-3">
                       <i className="fa fa-envelope" aria-hidden="true"></i>
                     </span>
-                    <span>praveenamara@senanitech.com</span>
+                    <span className='font-semibold'>praveenamara@senanitech.com</span>
                   </p>
                 </li>
                 <li>
@@ -68,7 +68,7 @@ const Footer = () => {
                     <span className="mr-3">
                       <i className="fa fa-building" aria-hidden="true"></i>
                     </span>
-                    <span>Vattamalaipalayam N.G.G.O colony, Coimbatore district , Tamilnadu - 641022
+                    <span className='font-semibold'>Vattamalaipalayam N.G.G.O colony, Coimbatore district , Tamilnadu - 641022
                     </span>
                   </p>
                 </li>
@@ -77,7 +77,7 @@ const Footer = () => {
           </div>
           <div className="w-full xl:px-4 sm:w-1/2 lg:w-3/12 pl-0 xl:pl-12">
             <div className="w-full mb-10">
-              <h4 className="text-lg median:text-xl font-bold text-black mb-2">
+              <h4 className="text-sm md:text-lg median:text-xl font-bold text-black mb-2">
                 Follow Us On
               </h4>
               <div className="flex items-center mb-6 gap-4">
