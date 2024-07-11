@@ -9,10 +9,10 @@ const Footer = () => {
         <div className="flex flex-wrap">
           <div className="w-full sm:w-2/3 lg:w-4/12 xl:pl-16">
             <div className="w-full mb-10">
-              <Link href="javascript:void(0)" className="mb-6 inline-block  text-center">
+              <Link href="javascript:void(0)" className="mb-2 inline-block  text-center">
                 <img src={Image} alt="logo" className="max-w-full" />
               </Link>
-              <p className="text-sm md:text-base  font-semibold  text-body-color mb-7 w-2/3 2xl:text-xl text-black">
+              <p className="text-sm   font-medium  text-body-color mb-7 w-2/3 2xl:text-xl text-black">
                 Senanitech is the embedded industry's innovation catalyst, fueling business transformation worldwide.
               </p>
             </div>
