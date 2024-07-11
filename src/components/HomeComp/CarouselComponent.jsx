@@ -67,7 +67,7 @@ function CarouselComponent() {
   }, []);
 
   return (
-    <div className="slider rounded-xl">
+    <div className="slider rounded-xl manrope-regular">
       <div className="arrows-prev">
         <button id="prev">&#60;</button>
       </div>
@@ -78,7 +78,8 @@ function CarouselComponent() {
             <p>SenaniTech</p>
             <h2>PCB Design</h2>
             <p>
-              
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur id beatae, tenetur possimus ratione distinctio earum. Quos veniam doloremque porro, aspernatur repudiandae natus, ullam sequi quasi, eveniet voluptates pariatur ipsa?
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit veritatis exercitationem cumque quos dolores laboriosam neque quam animi! Dolorum recusandae cupiditate distinctio exercitationem cum iure maiores sit magni modi enim!
             </p>
           </div>
         </div>
@@ -88,6 +89,8 @@ function CarouselComponent() {
             <p>SenaniTech</p>
             <h2>Production Engineering</h2>
             <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem pariatur consequatur, fugit ipsum aliquam saepe quos quibusdam eaque laboriosam, sed facere. Laboriosam repellendus non eos quia saepe deleniti quasi cupiditate!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus architecto facere sapiente magni repellat facilis omnis esse delectus fuga ex. Error distinctio deserunt ex quibusdam repudiandae ab, repellat ea temporibus!
               
             </p>
           </div>
@@ -98,6 +101,8 @@ function CarouselComponent() {
             <p>SenaniTech</p>
             <h2>Manufacturing Support</h2>
             <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora provident fugiat animi vel vitae beatae minus optio, distinctio maxime nesciunt consequatur consequuntur eaque unde atque, facere culpa incidunt error itaque?
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, eos, itaque iure suscipit doloribus sapiente quod molestiae corrupti hic nam eveniet repellendus iste obcaecati sunt inventore dolorem natus totam delectus.
               
             </p>
           </div>
