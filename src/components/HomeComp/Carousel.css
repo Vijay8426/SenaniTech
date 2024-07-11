@@ -153,6 +153,9 @@
   inset: auto 10px 10px 10px;
 }
 @media screen and (max-width: 678px) {
+  .slider{
+    height: 50vh;
+  }
   .thumbnail{
       justify-content: start;
   }

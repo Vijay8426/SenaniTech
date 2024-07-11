@@ -78,8 +78,7 @@ function CarouselComponent() {
             <p>SenaniTech</p>
             <h2>PCB Design</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, neque?
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ex.
+              
             </p>
           </div>
         </div>
@@ -89,8 +88,7 @@ function CarouselComponent() {
             <p>SenaniTech</p>
             <h2>Production Engineering</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, neque?
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ex.
+              
             </p>
           </div>
         </div>
@@ -100,8 +98,7 @@ function CarouselComponent() {
             <p>SenaniTech</p>
             <h2>Manufacturing Support</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, neque?
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ex.
+              
             </p>
           </div>
         </div>
