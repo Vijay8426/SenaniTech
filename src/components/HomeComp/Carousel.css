@@ -45,7 +45,7 @@
   letter-spacing: 3px;
 }
 .slider .list .item .content h2{
-  font-size: 70px;
+  font-size: 60px;
   margin: 0;
 }
 .slider .list .item.active{
@@ -164,6 +164,10 @@
   }
   .arrows{
       top: 10%;
+  }
+  .slider .list .item .content h2{
+    font-size: 30px;
+    margin: 0;
   }
 }
 .item h2{

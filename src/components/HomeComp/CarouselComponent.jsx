@@ -76,10 +76,9 @@ function CarouselComponent() {
           <img src={PCB} alt="PCB Design" />
           <div className="content">
             <p>SenaniTech</p>
-            <h2>PCB Design</h2>
+            <h2>PCB <br></br> Design</h2>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur id beatae, tenetur possimus ratione distinctio earum. Quos veniam doloremque porro, aspernatur repudiandae natus, ullam sequi quasi, eveniet voluptates pariatur ipsa?
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit veritatis exercitationem cumque quos dolores laboriosam neque quam animi! Dolorum recusandae cupiditate distinctio exercitationem cum iure maiores sit magni modi enim!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui vero quos laborum rem voluptas molestias omnis molestiae, architecto at quae adipisci accusamus esse autem totam enim aliquid iure obcaecati cumque!
             </p>
           </div>
         </div>
@@ -89,9 +88,7 @@ function CarouselComponent() {
             <p>SenaniTech</p>
             <h2>Production Engineering</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem pariatur consequatur, fugit ipsum aliquam saepe quos quibusdam eaque laboriosam, sed facere. Laboriosam repellendus non eos quia saepe deleniti quasi cupiditate!
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus architecto facere sapiente magni repellat facilis omnis esse delectus fuga ex. Error distinctio deserunt ex quibusdam repudiandae ab, repellat ea temporibus!
-              
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea consequatur, quas ipsa doloremque ipsam cupiditate. Autem ducimus quas quibusdam magnam possimus odio minus, molestiae similique. Quae tempora nostrum sunt est.
             </p>
           </div>
         </div>
@@ -101,9 +98,7 @@ function CarouselComponent() {
             <p>SenaniTech</p>
             <h2>Manufacturing Support</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora provident fugiat animi vel vitae beatae minus optio, distinctio maxime nesciunt consequatur consequuntur eaque unde atque, facere culpa incidunt error itaque?
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, eos, itaque iure suscipit doloribus sapiente quod molestiae corrupti hic nam eveniet repellendus iste obcaecati sunt inventore dolorem natus totam delectus.
-              
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ad unde vel, doloremque cumque delectus magnam, libero esse reprehenderit, velit nobis quae autem molestiae. Corrupti ab et dolorem ad ipsa?
             </p>
           </div>
         </div>
