@@ -4,7 +4,7 @@ import Image from '../images/logocompany.png';
 
 const Footer = () => {
   return (
-    <footer className="relative mx-auto bg-white pt-20 pb-10 lg:pt-[80px] lg:pb-20 px-10 z-30 median:max-w-[100rem] manrope-regular ">
+    <footer className="relative mx-auto bg-white pt-20 pb-10 lg:pt-[80px] lg:pb-20 px-10 z-30 max-w-[100rem] manrope-regular ">
       <div className="container mx-auto">
         <div className="flex flex-wrap">
           <div className="w-full sm:w-2/3 lg:w-4/12 xl:pl-16">

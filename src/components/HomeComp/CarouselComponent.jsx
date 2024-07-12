@@ -78,8 +78,8 @@ function CarouselComponent() {
         <div className="item active">
           <img src={PCB} alt="PCB Design" />
           <div className="content">
-            <p>SenaniTech</p>
-            <h2>PCB <br /> Design</h2>
+            <p></p>
+            <h2 className="poppins-medium">PCB <br /> Design</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui vero quos laborum rem voluptas molestias omnis molestiae, architecto at quae adipisci accusamus esse autem totam enim aliquid iure obcaecati cumque!
             </p>
@@ -88,8 +88,8 @@ function CarouselComponent() {
         <div className="item">
           <img src={Production} alt="Production Engineering" />
           <div className="content">
-            <p>SenaniTech</p>
-            <h2>Production Engineering</h2>
+            <p></p>
+            <h2 className="poppins-medium">Production Engineering</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea consequatur, quas ipsa doloremque ipsam cupiditate. Autem ducimus quas quibusdam magnam possimus odio minus, molestiae similique. Quae tempora nostrum sunt est.
             </p>
@@ -98,8 +98,8 @@ function CarouselComponent() {
         <div className="item">
           <img src={Manufacturing} alt="Manufacturing Support" />
           <div className="content">
-            <p>SenaniTech</p>
-            <h2>Manufacturing Support</h2>
+            <p></p>
+            <h2 className="poppins-medium">Manufacturing Support</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ad unde vel, doloremque cumque delectus magnam, libero esse reprehenderit, velit nobis quae autem molestiae. Corrupti ab et dolorem ad ipsa?
             </p>

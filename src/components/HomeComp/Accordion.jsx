@@ -10,7 +10,7 @@ const Accordion=()=>{
         <div className="relative font-inter antialiased manrope-regular">
         <main className="relative min-h-screen flex flex-col justify-center bg-gray-100 overflow-hidden">
             <div className="w-full  ">
-              <h1 className="text-3xl font-extrabold  sm:text-4xl  text-[#0a4275] py-6">
+              <h1 className="text-3xl font-extrabold text-[#0a4275] py-6">
                 Industries We Serve
               </h1>
               

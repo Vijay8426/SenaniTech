@@ -4,7 +4,7 @@
 
 /* css slider */
 .slider{
-  height: 90vh;
+  height: 70vh;
   color: #eee;
 
   position: relative;
@@ -29,7 +29,7 @@
   left: 0;
   bottom: 0;
   background-image: linear-gradient(
-      to right, #000 40%, transparent
+      to right, #000 10%, transparent
   );
 }
 .slider .list .item .content{
@@ -46,6 +46,7 @@
 }
 .slider .list .item .content h2{
   font-size: 60px;
+  font-weight: 600;
   margin: 0;
 }
 .slider .list .item.active{
@@ -154,7 +155,7 @@
 }
 @media screen and (max-width: 678px) {
   .slider{
-    height: 50vh;
+    height: 40vh;
   }
   .thumbnail{
       justify-content: start;

@@ -1,11 +1,12 @@
 import React from 'react'
+import CarouselComponent from '../HomeComp/CarouselComponent';
 import { Link } from 'react-router-dom';
-import image1 from '../../images/hardware.png';
-import image2 from '../../images/devops.png';
-import image3 from '../../images/engineering.png';
-import image4 from '../../images/testing.png';
-import image5 from '../../images/prototype.png';
-import image6 from '../../images/conveyor.png';
+import image1 from '../../images/motherboard.png';
+import image2 from '../../images/prototype (2).png';
+import image3 from '../../images/plan.png';
+import image4 from '../../images/factory.png';
+import image5 from '../../images/checklist.png';
+import image6 from '../../images/pcb.png';
 import image7 from '../../images/pcb-assembly.jpeg';
 import image8 from '../../images/product-assembly.jpeg';
 import image9 from '../../images/rapid-proto.jpeg';
@@ -22,7 +23,11 @@ import image18 from '../../images/smart-home.png';
 
 function Manufacturing() {
   return (
-    <div className="min-h-screen bg-gray-50/50">
+    <div className="">
+         <CarouselComponent/>
+    <div className="min-h-screen bg-gray-100 pb-5 max-w-[114rem] mx-auto">
+       
+
 
         <div className="p-6">
             <h1 className="text-3xl font-bold  sm:text-4xl  text-[#23488f] py-6">
@@ -31,46 +36,109 @@ function Manufacturing() {
             <h2 className="text-m font-semibold  sm:text-xl  pt-3 px-8">Benefit from our end-to-end product development capabilities</h2>
             <div className="mt-12">
                 <div className="mb-12 grid gap-y-10 gap-x-3 md:grid-cols-2 xl:grid-cols-6">
+                <div className="max-w-2xl mx-4 sm:max-w-sm md:max-w-sm lg:max-w-sm xl:max-w-sm sm:mx-auto md:mx-auto lg:mx-auto xl:mx-auto mt-16 bg-white shadow-xl rounded-lg text-gray-900">
+                    
+                    <div className="mx-auto w-28 h-28 relative -mt-16 border-4 border-white rounded-full overflow-hidden bg-gray-50">
+                        <img className="mx-5 my-5" src={image2} alt="Woman looking front"/>
+                    </div>
+                    <div className="text-center mt-2">
+                        <h2 className="font-semibold text-[#232a8f]">Concept</h2>
+                    </div>
+                    <div className="p-4 border-t mx-8 mt-2">
+
+                    </div>
+                    <ul className='block antialiased font-sans text-base leading-relaxed text-inherit  pl-10 list-disc'>
+                        <li>Concept Validation
+                        </li>
+                        <li>Product Specification Development
+                        </li>
+                        <li>System Architecture
+                        </li>
+                    </ul>
+                </div>
                     <div className="max-w-2xl mx-4 sm:max-w-sm md:max-w-sm lg:max-w-sm xl:max-w-sm sm:mx-auto md:mx-auto lg:mx-auto xl:mx-auto mt-16 bg-white shadow-xl rounded-lg text-gray-900">
                     
                         <div className="mx-auto w-28 h-28 relative -mt-16 border-4 border-white rounded-full overflow-hidden bg-gray-50">
                             <img className="mx-5 my-5" src={image1} alt="Woman looking front"/>
                         </div>
                         <div className="text-center mt-2">
-                            <h2 className="font-semibold">Hardware Design</h2>
+                            <h2 className="font-semibold text-[#23488f]">Hardware Design & Firmware Development
+                            </h2>
                         </div>
-                        <div className="p-4 border-t mx-8 mt-2">
+                        <div className="p-1 border-t mx-8 mt-2">
 
                         </div>
-                        <p className="block antialiased font-sans text  -base leading-relaxed text-inherit  px-4 text-center pb-5">From layout to schematics, we work on low power designs to complex PCB designs</p>
+                        <ul className='block antialiased font-sans text-base leading-relaxed text-inherit  pl-10 list-disc'>
+                        <li>HW High & Low Level Design
+
+                        </li>
+
+                        <li>Component Engineering
+
+                        </li>
+                        <li>Board Bring-Up
+                        </li>
+                        <li>Testing
+                        </li>
+                        <li>Firmware Development
+                        </li>
+                        <li>
+                            Driver Development
+                        </li>
+                    </ul>
                     </div>
                     <div className="max-w-2xl mx-4 sm:max-w-sm md:max-w-sm lg:max-w-sm xl:max-w-sm sm:mx-auto md:mx-auto lg:mx-auto xl:mx-auto mt-16 bg-white shadow-xl rounded-lg text-gray-900">
                     
-                        <div className="mx-auto w-28 h-28 relative -mt-16 border-4 border-white rounded-full overflow-hidden bg-gray-50">
-                            <img className="mx-5 my-5" src={image2} alt="Woman looking front"/>
-                        </div>
-                        <div className="text-center mt-2">
-                            <h2 className="font-semibold">Software Design</h2>
-                        </div>
-                        <div className="p-4 border-t mx-8 mt-2">
-
-                        </div>
-                        <p className="block antialiased font-sans text  -base leading-relaxed text-inherit  px-4 text-center pb-5">Specializing in system design from firmware, drivers, BSP to cloud and application
-
-                        </p>
+                    <div className="mx-auto w-28 h-28 relative -mt-16 border-4 border-white rounded-full overflow-hidden bg-gray-50">
+                        <img className="mx-5 my-5" src={image6}  alt="Woman looking front"/>
                     </div>
+                    <div className="text-center mt-2">
+                        <h2 className="font-semibold text-[#23488f]">PCB Design</h2>
+                    </div>
+                    <div className="p-4 border-t mx-8 mt-2">
+
+
+                    </div>
+                    <ul className='block antialiased font-sans text-base leading-relaxed text-inherit  pl-10 list-disc'>
+                        <li>PCB Layout Design
+                        </li>
+                        <li>Signal / Power / Thermal Integrity Analysis
+
+                        </li>
+                        <li>High-Speed Design (HDI and ATI Boards)
+
+                        </li>
+                    </ul>
+                    
+                </div>
+
                     <div className="max-w-2xl mx-4 sm:max-w-sm md:max-w-sm lg:max-w-sm xl:max-w-sm sm:mx-auto md:mx-auto lg:mx-auto xl:mx-auto mt-16 bg-white shadow-xl rounded-lg text-gray-900">
                     
                         <div className="mx-auto w-28 h-28 relative -mt-16 border-4 border-white rounded-full overflow-hidden bg-gray-50">
                             <img className="mx-5 my-5" src={image3} alt="Woman looking front"/>
                         </div>
                         <div className="text-center mt-2">
-                            <h2 className="font-semibold">Mechanical Design</h2>
+                            <h2 className="font-semibold text-[#23488f]">Mechanical Design and Development</h2>
                         </div>
-                        <div className="p-4 border-t mx-8 mt-2">
+                        <div className="p-1 border-t mx-8 mt-2">
 
                         </div>
-                        <p className="block antialiased font-sans text  -base leading-relaxed text-inherit  px-4 text-center pb-5">Our team is specialized in designing unique, innovative ID designs with precision</p>
+                        <ul className='block antialiased font-sans text-base leading-relaxed text-inherit  pl-10 list-disc'>
+                        <li>Enclosure Design
+
+                        </li>
+                        <li>Mechanical / Industrial Design
+
+                        </li>
+                        <li>Enclosure Fabrication
+
+                        </li>
+                        <li>
+                        Mass Fabrication for SS,MS
+
+                        </li>
+                    </ul>
+                        
                     </div>
                     <div className="max-w-2xl mx-4 sm:max-w-sm md:max-w-sm lg:max-w-sm xl:max-w-sm sm:mx-auto md:mx-auto lg:mx-auto xl:mx-auto mt-16 bg-white shadow-xl rounded-lg text-gray-900">
                     
@@ -78,12 +146,21 @@ function Manufacturing() {
                             <img className="mx-5 my-5" src={image4} alt="Woman looking front"/>
                         </div>
                         <div className="text-center mt-2">
-                            <h2 className="font-semibold">QA & Testing</h2>
+                            <h2 className="font-semibold text-[#23488f]">Electronics and Manufacturing Service                            </h2>
                         </div>
-                        <div className="p-4 border-t mx-8 mt-2">
+                        <div className="p-1 border-t mx-8 mt-2">
 
                         </div>
-                        <p className="block antialiased font-sans text  -base leading-relaxed text-inherit  px-4 text-center pb-5">We help accelerate service delivery and improve quality with our intelligent automated QA and testing</p>
+                        <ul className='block antialiased font-sans text-base leading-relaxed text-inherit  pl-10 list-disc'>
+                        <li>Printed Circit Board Manufacturing 
+
+                        </li>
+                        <li>Printed Circit Board Assembly
+
+                        </li>
+
+                    </ul>
+                        
                     </div>
                     <div className="max-w-2xl mx-4 sm:max-w-sm md:max-w-sm lg:max-w-sm xl:max-w-sm sm:mx-auto md:mx-auto lg:mx-auto xl:mx-auto mt-16 bg-white shadow-xl rounded-lg text-gray-900">
                     
@@ -91,26 +168,25 @@ function Manufacturing() {
                             <img className="mx-5 my-5" src={image5} alt="Woman looking front"/>
                         </div>
                         <div className="text-center mt-2">
-                            <h2 className="font-semibold">Prototyping</h2>
+                            <h2 className="font-semibold text-[#23488f]">Box Building /
+Regulatory Compliance
+</h2>
                         </div>
-                        <div className="p-4 border-t mx-8 mt-2">
+                        <div className="p-1 border-t mx-8 mt-2">
 
                         </div>
-                        <p className="block antialiased font-sans text  -base leading-relaxed text-inherit  px-4 text-center pb-5">Ensuring faster time to market with our quick prototyping capability</p>
+                        <ul className='block antialiased font-sans text-base leading-relaxed text-inherit  pl-10 list-disc'>
+                            <li>Power ON Testing
+                            </li>
+                            <li>Box Building 
+                            </li>
+                            <li>Cable Harness
+                            </li>
+                            <li>EMI/EMC Consulting 
+                            </li>
+                        </ul>
                     </div>
-                    <div className="max-w-2xl mx-4 sm:max-w-sm md:max-w-sm lg:max-w-sm xl:max-w-sm sm:mx-auto md:mx-auto lg:mx-auto xl:mx-auto mt-16 bg-white shadow-xl rounded-lg text-gray-900">
-                    
-                        <div className="mx-auto w-28 h-28 relative -mt-16 border-4 border-white rounded-full overflow-hidden bg-gray-50">
-                            <img className="mx-5 my-5" src={image6}  alt="Woman looking front"/>
-                        </div>
-                        <div className="text-center mt-2">
-                            <h2 className="font-semibold">Manufacturing</h2>
-                        </div>
-                        <div className="p-4 border-t mx-8 mt-2">
 
-                        </div>
-                        <p className="block antialiased font-sans text  -base leading-relaxed text-inherit  px-4 text-center pb-5">Our strong DFM, DFMA processes help customers convert their protos to mass production in accelerated time to market</p>
-                    </div>
 
 
                 
@@ -265,6 +341,7 @@ function Manufacturing() {
 
     </div>
 
+    </div>
     </div>
     </div>
   )
