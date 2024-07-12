@@ -21,6 +21,14 @@ module.exports = {
 
       '2xl': '1536px',
       // => @media (min-width: 1536px) { ... }
+      '3xl' : '1570px',
+      '4xl' : '1680px',
+      '5xl' : '1730px',
+      '6xl' : '1780px',
+      '7xl' :  '1830px',
+      '8xl' :  '1880px',
+      '9xl'  : '1930px',
+      '10xl' : '1980px'
     },
     extend: {
       
