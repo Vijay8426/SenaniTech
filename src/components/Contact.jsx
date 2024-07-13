@@ -1,11 +1,11 @@
-import { Link } from 'react-router-dom';
 import React, { useRef } from "react";
+import { Link } from 'react-router-dom';
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
+import axios from 'axios';
 import '../map.css';
 
-// Custom icon for the marker
 const customIcon = new L.Icon({
   iconUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-icon.png',
   iconSize: [25, 41],
@@ -15,14 +15,34 @@ const customIcon = new L.Icon({
   shadowSize: [41, 41]
 });
 
-
 function Contact() {
   const mapRef = useRef(null);
   const latitude = 11.117590;
   const longitude = 76.969520;
 
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const formData = new FormData(e.target);
+
+    try {
+      const response = await axios.post('http://localhost:5000/send-email', formData, {
+        headers: {
+          'Content-Type': 'multipart/form-data',
+        },
+      });
+
+      if (response.status === 200) {
+        alert('Email sent successfully!');
+      } else {
+        alert('Failed to send email.');
+      }
+    } catch (error) {
+      alert('Failed to send email error');
+    }
+  };
+
   return (
-    <form method="post " className='bg-gray-100'>
+    <form onSubmit={handleSubmit} className='bg-gray-100'>
       <section className="py-12">
         <div className="mx-auto max-w-7xl xl:max-w-[95rem] 2xl:max-w-[100rem] 6xl:max-w-[110rem] 7xl:max-w-[114rem] 8xl:max-w-[118rem] 9xl:max-w-[122rem] px-4 sm:px-6 lg:px-8">
           <div className="flex lg:flex-row flex-col gap-10">
@@ -133,7 +153,7 @@ function Contact() {
                     </p>
                     <p className="text-xs text-gray-500">file: docs,txt,pdf</p>
                   </div>
-                  <input id="dropzone-file" type="file" className="hidden" />
+                  <input id="dropzone-file" type="file" name="file" className="hidden" />
                 </label>
               </div>
               <textarea
