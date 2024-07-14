@@ -58,8 +58,8 @@ function AboutUs() {
             High Work Achievement
         </h1>
         <div className="md:mt-14 mt-4 relative sm:flex items-center justify-center">
-            <img src="https://i.ibb.co/KjrPCyW/map.png" alt="world map image" className="w-full xl:h-full h-96 object-cover object-fill sm:block hidden" />
-            <img src="https://i.ibb.co/SXKj9Mf/map-bg.png" alt="mobile-image" className="sm:hidden -mt-10 block w-full h-96 object-cover object-fill absolute z-0" />
+            <img src="https://i.ibb.co/KjrPCyW/map.png" alt="world map image" className="w-full xl:h-full h-96  object-fill sm:block hidden" />
+            <img src="https://i.ibb.co/SXKj9Mf/map-bg.png" alt="mobile-image" className="sm:hidden -mt-10 block w-full h-96  object-fill absolute z-0" />
 
             <div className="shadow-lg xl:p-6 p-4 w-48  bg-white sm:absolute relative z-20   left-0 xl:ml-56 sm:ml-12 xl:-mt-40 ml-5 ">
                 <p className="text-3xl font-semibold text-gray-800">250+</p>
@@ -217,7 +217,7 @@ function AboutUs() {
     <div className="flex items-center p-2 transition-colors duration-200 border rounded shadow group hover:bg-deep-purple-accent-400 hover:border-deep-purple-accent-400">
       <div className="mr-2">
         <svg
-          className="w-6 h-12 transition-colors duration-200 text-deep-purple-accent-400 group-hover:text-white sm:w-8 sm:h-8"
+          className="w-6 h-12 transition-colors duration-200 text-deep-purple-accent-400 group-hover:text-blue-600 sm:w-8 sm:h-8"
           stroke="currentColor"
           viewBox="0 0 52 52"
         >
@@ -230,14 +230,14 @@ function AboutUs() {
           />
         </svg>
       </div>
-      <span className="text-gray-800 transition-colors duration-200 group-hover:text-white">
+      <span className="text-gray-800 transition-colors duration-200 group-hover:text-blue-600">
         24x7 Design Support
       </span>
     </div>
     <div className="flex items-center p-2 transition-colors duration-200 border rounded shadow group hover:bg-deep-purple-accent-400 hover:border-deep-purple-accent-400">
       <div className="mr-2">
         <svg
-          className="w-6 h-12 transition-colors duration-200 text-deep-purple-accent-400 group-hover:text-white sm:w-8 sm:h-8"
+          className="w-6 h-12 transition-colors duration-200 text-deep-purple-accent-400 group-hover:text-blue-600 sm:w-8 sm:h-8"
           stroke="currentColor"
           viewBox="0 0 52 52"
         >
@@ -250,14 +250,14 @@ function AboutUs() {
           />
         </svg>
       </div>
-      <span className="text-gray-800 transition-colors duration-200 group-hover:text-white">
+      <span className="text-gray-800 transition-colors duration-200 group-hover:text-blue-600">
         Complete Turnkey solution.
       </span>
     </div>
     <div className="flex items-center p-2 transition-colors duration-200 border rounded shadow group hover:bg-deep-purple-accent-400 hover:border-deep-purple-accent-400">
       <div className="mr-2">
         <svg
-          className="w-6 h-12 transition-colors duration-200 text-deep-purple-accent-400 group-hover:text-white sm:w-8 sm:h-8"
+          className="w-6 h-12 transition-colors duration-200 text-deep-purple-accent-400 group-hover:text-blue-600 sm:w-8 sm:h-8"
           stroke="currentColor"
           viewBox="0 0 52 52"
         >
@@ -270,14 +270,14 @@ function AboutUs() {
           />
         </svg>
       </div>
-      <span className="text-gray-800 transition-colors duration-200 group-hover:text-white">
+      <span className="text-gray-800 transition-colors duration-200 group-hover:text-blue-600">
         FPGA Design Expertise
       </span>
     </div>
     <div className="flex items-center p-2 transition-colors duration-200 border rounded shadow group hover:bg-deep-purple-accent-400 hover:border-deep-purple-accent-400">
       <div className="mr-2">
         <svg
-          className="w-6 h-12 transition-colors duration-200 text-deep-purple-accent-400 group-hover:text-white sm:w-8 sm:h-8"
+          className="w-6 h-12 transition-colors duration-200 text-deep-purple-accent-400 group-hover:text-blue-600 sm:w-8 sm:h-8"
           stroke="currentColor"
           viewBox="0 0 52 52"
         >
@@ -290,14 +290,14 @@ function AboutUs() {
           />
         </svg>
       </div>
-      <span className="text-gray-800 transition-colors duration-200 group-hover:text-white">
+      <span className="text-gray-800 transition-colors duration-200 group-hover:text-blue-600">
         Save on R&D time
       </span>
     </div>
     <div className="flex items-center p-2 transition-colors duration-200 border rounded shadow group hover:bg-deep-purple-accent-400 hover:border-deep-purple-accent-400">
       <div className="mr-2">
         <svg
-          className="w-6 h-12 transition-colors duration-200 text-deep-purple-accent-400 group-hover:text-white sm:w-8 sm:h-8"
+          className="w-6 h-12 transition-colors duration-200 text-deep-purple-accent-400 group-hover:text-blue-600 sm:w-8 sm:h-8"
           stroke="currentColor"
           viewBox="0 0 52 52"
         >
@@ -310,14 +310,14 @@ function AboutUs() {
           />
         </svg>
       </div>
-      <span className="text-gray-800 transition-colors duration-200 group-hover:text-white">
+      <span className="text-gray-800 transition-colors duration-200 group-hover:text-blue-600">
         Save on R&D Cost
       </span>
     </div>
     <div className="flex items-center p-2 transition-colors duration-200 border rounded shadow group hover:bg-deep-purple-accent-400 hover:border-deep-purple-accent-400">
       <div className="mr-2">
         <svg
-          className="w-6 h-12 transition-colors duration-200 text-deep-purple-accent-400 group-hover:text-white sm:w-8 sm:h-8"
+          className="w-6 h-12 transition-colors duration-200 text-deep-purple-accent-400 group-hover:text-blue-600 sm:w-8 sm:h-8"
           stroke="currentColor"
           viewBox="0 0 52 52"
         >
@@ -330,14 +330,14 @@ function AboutUs() {
           />
         </svg>
       </div>
-      <span className="text-gray-800 transition-colors duration-200 group-hover:text-white">
+      <span className="text-gray-800 transition-colors duration-200 group-hover:text-blue-600">
         Cross Domain Expertise
       </span>
     </div>
     <div className="flex items-center p-2 transition-colors duration-200 border rounded shadow group hover:bg-deep-purple-accent-400 hover:border-deep-purple-accent-400">
       <div className="mr-2">
         <svg
-          className="w-6 h-12 transition-colors duration-200 text-deep-purple-accent-400 group-hover:text-white sm:w-8 sm:h-8"
+          className="w-6 h-12 transition-colors duration-200 text-deep-purple-accent-400 group-hover:text-blue-600 sm:w-8 sm:h-8"
           stroke="currentColor"
           viewBox="0 0 52 52"
         >
@@ -350,7 +350,7 @@ function AboutUs() {
           />
         </svg>
       </div>
-      <span className="text-gray-800 transition-colors duration-200 group-hover:text-white">
+      <span className="text-gray-800 transition-colors duration-200 group-hover:text-blue-600">
         Concept to Manufacturing
       </span>
     </div>
@@ -358,7 +358,7 @@ function AboutUs() {
     <div className="flex items-center p-2 transition-colors duration-200 border rounded shadow group hover:bg-deep-purple-accent-400 hover:border-deep-purple-accent-400">
       <div className="mr-2">
         <svg
-          className="w-6 h-12 transition-colors duration-200 text-deep-purple-accent-400 group-hover:text-white sm:w-8 sm:h-8"
+          className="w-6 h-12 transition-colors duration-200 text-deep-purple-accent-400 group-hover:text-blue-600 sm:w-8 sm:h-8"
           stroke="currentColor"
           viewBox="0 0 52 52"
         >
@@ -371,14 +371,14 @@ function AboutUs() {
           />
         </svg>
       </div>
-      <span className="text-gray-800 transition-colors duration-200 group-hover:text-white">
+      <span className="text-gray-800 transition-colors duration-200 group-hover:text-blue-600">
         Working along with engineers, understand the high demand of dynamic changes required and support the same
       </span>
     </div>
     <div className="flex items-center p-2 transition-colors duration-200 border rounded shadow group hover:bg-deep-purple-accent-400 hover:border-deep-purple-accent-400">
       <div className="mr-2">
         <svg
-          className="w-6 h-12 transition-colors duration-200 text-deep-purple-accent-400 group-hover:text-white sm:w-8 sm:h-8"
+          className="w-6 h-12 transition-colors duration-200 text-deep-purple-accent-400 group-hover:text-blue-600 sm:w-8 sm:h-8"
           stroke="currentColor"
           viewBox="0 0 52 52"
         >
@@ -391,14 +391,14 @@ function AboutUs() {
           />
         </svg>
       </div>
-      <span className="text-gray-800 transition-colors duration-200 group-hover:text-white">
+      <span className="text-gray-800 transition-colors duration-200 group-hover:text-blue-600">
         Warranty for manufacturing defects for a period of 1 year with free rework support.
       </span>
     </div>
     <div className="flex items-center p-2 transition-colors duration-200 border rounded shadow group hover:bg-deep-purple-accent-400 hover:border-deep-purple-accent-400">
       <div className="mr-2">
         <svg
-          className="w-6 h-12 transition-colors duration-200 text-deep-purple-accent-400 group-hover:text-white sm:w-8 sm:h-8"
+          className="w-6 h-12 transition-colors duration-200 text-deep-purple-accent-400 group-hover:text-blue-600 sm:w-8 sm:h-8"
           stroke="currentColor"
           viewBox="0 0 52 52"
         >
@@ -411,7 +411,7 @@ function AboutUs() {
           />
         </svg>
       </div>
-      <span className="text-gray-800 transition-colors duration-200 group-hover:text-white">
+      <span className="text-gray-800 transition-colors duration-200 group-hover:text-blue-600">
         The time spent by our customer’s engineers in identifying assembly related issues is very low, thereby increasing our customer’s productivity and savings in time and cost.
       </span>
     </div>
