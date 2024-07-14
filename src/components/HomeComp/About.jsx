@@ -17,7 +17,7 @@
 
               </p>
               <div className="mt-8 mx-auto" >
-                <Link to="#" className="text-blue-500 hover:text-blue-600 font-medium 2xl:text-xl">
+                <Link to="/about" className="text-blue-500 hover:text-blue-600 font-medium 2xl:text-xl">
                   Learn more about us
                   <span className="ml-2">&#8594;</span>
                 </Link>

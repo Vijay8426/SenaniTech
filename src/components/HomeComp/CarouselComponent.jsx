@@ -22,7 +22,7 @@ function CarouselComponent() {
       if (itemActiveOld && thumbnailActiveOld) {
         itemActiveOld.classList.remove('active');
         thumbnailActiveOld.classList.remove('active');
-
+        
         // active new item
         items[itemActive].classList.add('active');
         thumbnails[itemActive].classList.add('active');

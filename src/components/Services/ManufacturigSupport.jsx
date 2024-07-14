@@ -19,12 +19,33 @@ import image15 from '../../images/smart-house.png';
 import image16 from '../../images/information-technology.png';
 import image17 from '../../images/heart-rate.png';
 import image18 from '../../images/smart-home.png';
+import Mmnufacturing from '../../image-org/home/Carousel-images/Manufacturing_Image 1.jpg';
+import Production from  '../../image-org/home/Carousel-images/Manufacturing_Image 1.jpg';
+import PCB from  '../../image-org/home/Carousel-images/Manufacturing_Image 1.jpg';
+import '../HomeComp/Carousel.css';
 
 
 function Manufacturing() {
   return (
     <div className="">
-         <CarouselComponent/>
+            <div className="slider rounded-xl poppins-regular">
+
+      <div className="list">
+        <div className="item active">
+          <img src={PCB} alt="PCB Design" />
+          <div className="content">
+            <p></p>
+            <h2 className="poppins-medium">Manufacturing Support</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui vero quos laborum rem voluptas molestias omnis molestiae, architecto at quae adipisci accusamus esse autem totam enim aliquid iure obcaecati cumque!
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
     <div className="min-h-screen bg-gray-100 pb-5 max-w-[114rem] mx-auto">
        
 
