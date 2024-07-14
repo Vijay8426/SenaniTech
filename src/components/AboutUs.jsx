@@ -15,8 +15,8 @@ import Client10 from '../image-org/About/Clients/Client-10.png';
 function AboutUs() {
   return (
     <div >
-<section className="w-full mx-auto py-10 dark:bg-gray-900 dark:text-white px-6">
-  <div className="w-fit pb-1 px-2 mx-4 rounded-md text-2xl font-semibold border-b-2 border-blue-600 dark:border-yellow-600">
+<section className="w-full mx-auto py-10 bg-gray-100 text-black px-6">
+  <div className="w-fit pb-1 px-2 mx-4 rounded-md text-2xl font-semibold border-b-2 border-blue-600">
     About Us
   </div>
 
@@ -24,8 +24,8 @@ function AboutUs() {
     <div className="lg:w-[50%] w-full flex-grow">
       <img className="rounded-lg w-full h-full object-cover" src={Image1} alt="billboard image" />
     </div>
-    <div className="lg:w-[50%] w-full bg-gray-100 dark:bg-gray-900 dark:text-gray-400 p-4 rounded-md flex flex-col">
-      <h2 className="text-3xl font-semibold text-gray-900 dark:text-white">Who we are?</h2>
+    <div className="lg:w-[50%] w-full bg-white p-4 rounded-md flex flex-col">
+      <h2 className="text-3xl font-semibold text-gray-900">Who we are?</h2>
       <p className="text-md mt-4">
         SenaniTech is a preeminent provider of Board level solutions to the semiconductor industry. With established expertise in the design and manufacture of Reference Boards, Evaluation Boards, ATE Test Interface Boards, and Burn-in Boards, SenaniTech provides a comprehensive one stop solution for all board level needs to the world’s leading semiconductor firms.
       </p>
@@ -39,8 +39,8 @@ function AboutUs() {
     <div className="w-full lg:hidden">
       <img className="rounded-lg w-full" src={Image2} alt="billboard image" />
     </div>
-    <div className="lg:w-[50%] w-full bg-gray-100 dark:bg-gray-900 dark:text-gray-400 p-4 rounded-md flex flex-col">
-      <h2 className="text-3xl font-semibold text-gray-900 dark:text-white">What we do?</h2>
+    <div className="lg:w-[50%] w-full bg-white p-4 rounded-md flex flex-col">
+      <h2 className="text-3xl font-semibold text-gray-900">What we do?</h2>
       <p className="text-md mt-4">
         SenaniTech’s leading edge capabilities in board design and contract manufacturing has enabled it to extend its services beyond the semiconductor industry, into medical devices, networking, aerospace, and defense, among others. We offer end-to-end services in the field of Embedded Systems. Our services start from product design requirement gathering, Product Idea Validation, Schematic Design, Hardware Design, Firmware & Software Development, Prototype Development, Application Development, Product Testing, Fixing bugs in the production and help clients to get Certification for the new products.
       </p>
@@ -50,6 +50,7 @@ function AboutUs() {
     </div>
   </div>
 </section>
+
 
 
 
@@ -470,7 +471,7 @@ function AboutUs() {
             </div>
 
 
-        </div>
+           </div>
 
  
     </div>
