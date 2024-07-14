@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import Home from './components/Home';
 import Contact from './components/Contact';
 import PCB from './components/HomeComp/PCB';
+import AboutUs from './components/AboutUs';
 import RefDev from './components/Services/PCB/RefDev';
 import ATE from './components/Services/PCB/ATE';
 import Reliablity from './components/Services/PCB/Reliablity';
@@ -22,6 +23,7 @@ function App() {
           {/* Define routes for each page/component */}
           <Route exact path="/" element={<Home />} />
           <Route exact path="/services/pcb" element={<PCB />} />
+          <Route exact path="/about" element={<AboutUs />} />
           <Route exact path='/services/pcb/refdev' element={<RefDev/>}/>
           <Route exact path='/services/pcb/ate' element={<ATE/>}/>
           <Route exact path='/services/pcb/reliablity' element={<Reliablity/>}/>
