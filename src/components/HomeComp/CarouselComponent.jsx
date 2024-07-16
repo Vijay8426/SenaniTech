@@ -88,16 +88,7 @@ function CarouselComponent() {
             </p>
           </div>
         </div>
-        <div className="item">
-          <img loading='lazy' src={Production} alt="Production Engineering" />
-          <div className="content">
-            <p></p>
-            <h2 className="poppins-medium">Production Engineering</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea consequatur, quas ipsa doloremque ipsam cupiditate. Autem ducimus quas quibusdam magnam possimus odio minus, molestiae similique. Quae tempora nostrum sunt est.
-            </p>
-          </div>
-        </div>
+
         <div className="item">
           <img loading='lazy' src={Manufacturing} alt="Manufacturing Support" />
           <div className="content">
