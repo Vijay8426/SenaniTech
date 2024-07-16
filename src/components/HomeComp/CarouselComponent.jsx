@@ -84,8 +84,8 @@ function CarouselComponent() {
             <p></p>
             <h2 className="poppins-medium">PCB <br /> Design</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui vero quos laborum rem voluptas molestias omnis molestiae, architecto at quae adipisci accusamus esse autem totam enim aliquid iure obcaecati cumque!
-            </p>
+            
+SenaniTech excels in PCB design services, offering expert solutions tailored for the semiconductor industry. Our comprehensive approach covers everything from initial design to final manufacturing, ensuring high-quality and reliable boards. With advanced technology and a skilled team, we deliver optimized PCB designs that meet rigorous industry standards.            </p>
           </div>
         </div>
 
@@ -95,7 +95,8 @@ function CarouselComponent() {
             <p></p>
             <h2 className="poppins-medium">Manufacturing Support</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ad unde vel, doloremque cumque delectus magnam, libero esse reprehenderit, velit nobis quae autem molestiae. Corrupti ab et dolorem ad ipsa?
+              
+SenaniTech provides top-tier manufacturing support for the semiconductor industry, ensuring seamless production of high-quality boards. Our state-of-the-art facilities and skilled workforce guarantee precision and reliability in every project. From prototyping to full-scale production, we manage all aspects of manufacturing to meet stringent industry standards.
             </p>
           </div>
         </div>
