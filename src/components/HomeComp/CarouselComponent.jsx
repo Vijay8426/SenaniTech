@@ -14,6 +14,7 @@ function CarouselComponent() {
     // config param
     const countItem = items.length;
     let itemActive = 0;
+    let refreshInterval;
 
     function showSlider() {
       // remove item active old
@@ -38,24 +39,18 @@ function CarouselComponent() {
     if (next && prev && items.length > 0) {
       // event next click
       next.onclick = function () {
-        itemActive = itemActive + 1;
-        if (itemActive >= countItem) {
-          itemActive = 0;
-        }
+        itemActive = (itemActive + 1) % countItem;
         showSlider();
       };
 
       // event prev click
       prev.onclick = function () {
-        itemActive = itemActive - 1;
-        if (itemActive < 0) {
-          itemActive = countItem - 1;
-        }
+        itemActive = (itemActive - 1 + countItem) % countItem;
         showSlider();
       };
 
       // auto run slider
-      var refreshInterval = setInterval(() => {
+      refreshInterval = setInterval(() => {
         next.click();
       }, 5000);
 
@@ -67,6 +62,14 @@ function CarouselComponent() {
         });
       });
     }
+
+    return () => {
+      // Clean up event listeners and intervals
+      next.onclick = null;
+      prev.onclick = null;
+      thumbnails.forEach((thumbnail) => thumbnail.removeEventListener('click', showSlider));
+      clearInterval(refreshInterval);
+    };
   }, []);
 
   return (
@@ -76,7 +79,7 @@ function CarouselComponent() {
       </div>
       <div className="list">
         <div className="item active">
-          <img src={PCB} alt="PCB Design" />
+          <img loading='lazy' src={PCB} alt="PCB Design" />
           <div className="content">
             <p></p>
             <h2 className="poppins-medium">PCB <br /> Design</h2>
@@ -86,7 +89,7 @@ function CarouselComponent() {
           </div>
         </div>
         <div className="item">
-          <img src={Production} alt="Production Engineering" />
+          <img loading='lazy' src={Production} alt="Production Engineering" />
           <div className="content">
             <p></p>
             <h2 className="poppins-medium">Production Engineering</h2>
@@ -96,7 +99,7 @@ function CarouselComponent() {
           </div>
         </div>
         <div className="item">
-          <img src={Manufacturing} alt="Manufacturing Support" />
+          <img loading='lazy' src={Manufacturing} alt="Manufacturing Support" />
           <div className="content">
             <p></p>
             <h2 className="poppins-medium">Manufacturing Support</h2>
@@ -111,15 +114,15 @@ function CarouselComponent() {
       </div>
       <div className="thumbnail" style={{ opacity: 0, pointerEvents: "none" }}>
         <div className="item active">
-          <img src={PCB} alt="PCB Design Thumbnail" />
+          <img loading='lazy' src={PCB} alt="PCB Design Thumbnail" />
           <div className="content">Name Slider</div>
         </div>
         <div className="item">
-          <img src={Production} alt="Production Engineering Thumbnail" />
+          <img loading='lazy' src={Production} alt="Production Engineering Thumbnail" />
           <div className="content">Name Slider</div>
         </div>
         <div className="item">
-          <img src={Manufacturing} alt="Manufacturing Support Thumbnail" />
+          <img loading='lazy' src={Manufacturing} alt="Manufacturing Support Thumbnail" />
           <div className="content">Name Slider</div>
         </div>
       </div>

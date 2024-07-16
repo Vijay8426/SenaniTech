@@ -22,7 +22,7 @@ function AboutUs() {
 
   <div className="xl:w-[80%] sm:w-[85%] xs:w-[90%] mx-auto flex flex-wrap lg:flex-nowrap gap-4 justify-center items-stretch mt-4">
     <div className="lg:w-[50%] w-full flex-grow">
-      <img className="rounded-lg w-full h-full object-cover" src={Image1} alt="billboard image" />
+      <img loading='lazy' className="rounded-lg w-full h-full object-cover" src={Image1} alt="billboard image" />
     </div>
     <div className="lg:w-[50%] w-full bg-white p-4 rounded-md flex flex-col">
       <h2 className="text-3xl font-semibold text-gray-900">Who we are?</h2>
@@ -37,7 +37,7 @@ function AboutUs() {
 
   <div className="xl:w-[80%] sm:w-[85%] xs:w-[90%] mx-auto flex flex-wrap lg:flex-nowrap gap-4 justify-center items-stretch mt-6">
     <div className="w-full lg:hidden">
-      <img className="rounded-lg w-full" src={Image2} alt="billboard image" />
+      <img loading='lazy' className="rounded-lg w-full" src={Image2} alt="billboard image" />
     </div>
     <div className="lg:w-[50%] w-full bg-white p-4 rounded-md flex flex-col">
       <h2 className="text-3xl font-semibold text-gray-900">What we do?</h2>
@@ -46,7 +46,7 @@ function AboutUs() {
       </p>
     </div>
     <div className="lg:w-[50%] w-full hidden lg:block">
-      <img className="rounded-lg w-full h-full object-cover" src={Image2} alt="billboard image" />
+      <img loading='lazy' className="rounded-lg w-full h-full object-cover" src={Image2} alt="billboard image" />
     </div>
   </div>
 </section>
@@ -58,8 +58,8 @@ function AboutUs() {
             High Work Achievement
         </h1>
         <div className="md:mt-14 mt-4 relative sm:flex items-center justify-center">
-            <img src="https://i.ibb.co/KjrPCyW/map.png" alt="world map image" className="w-full xl:h-full h-96  object-fill sm:block hidden" />
-            <img src="https://i.ibb.co/SXKj9Mf/map-bg.png" alt="mobile-image" className="sm:hidden -mt-10 block w-full h-96  object-fill absolute z-0" />
+            <img loading='lazy' src="https://i.ibb.co/KjrPCyW/map.png" alt="world map image" className="w-full xl:h-full h-96  object-fill sm:block hidden" />
+            <img loading='lazy' src="https://i.ibb.co/SXKj9Mf/map-bg.png" alt="mobile-image" className="sm:hidden -mt-10 block w-full h-96  object-fill absolute z-0" />
 
             <div className="shadow-lg xl:p-6 p-4 w-48  bg-white sm:absolute relative z-20   left-0 xl:ml-56 sm:ml-12 xl:-mt-40 ml-5 ">
                 <p className="text-3xl font-semibold text-gray-800">250+</p>
@@ -431,43 +431,43 @@ function AboutUs() {
 
         <div className="grid items-center max-w-8xl grid-cols-2 gap-4 mx-auto mt-12 md:mt-20 md:grid-cols-5">
             <div className="bg-white h-40 flex shadow-lg items-center justify-center">
-                <img className="object-contain w-full h-24 mx-auto" src={Client1} alt=""/>
+                <img loading='lazy' className="object-contain w-full h-24 mx-auto" src={Client1} alt=""/>
             </div>
 
             <div className="bg-white h-40 flex shadow-lg items-center justify-center">
-                <img className="object-contain w-full h-[10rem] mx-auto" src={Client2} alt=""/>
+                <img loading='lazy' className="object-contain w-full h-[10rem] mx-auto" src={Client2} alt=""/>
             </div>
 
             <div className="bg-white h-40 flex shadow-lg items-center justify-center">
-                <img className="object-contain w-full h-[10rem] mx-auto" src={Client3} alt=""/>
+                <img loading='lazy' className="object-contain w-full h-[10rem] mx-auto" src={Client3} alt=""/>
             </div>
 
             <div className="bg-white h-40 flex shadow-lg items-center justify-center">
-                <img className="object-contain w-full mx-auto h-[10rem]" src={Client4} alt=""/>
+                <img loading='lazy' className="object-contain w-full mx-auto h-[10rem]" src={Client4} alt=""/>
             </div>
 
             <div className="bg-white h-40 flex shadow-lg items-center justify-center">
-                <img className="object-contain w-full h-24 mx-auto" src={Client5} alt=""/>
+                <img loading='lazy' className="object-contain w-full h-24 mx-auto" src={Client5} alt=""/>
             </div>
 
             <div className="bg-white h-40 flex shadow-lg items-center justify-center">
-                <img className="object-contain w-full h-[10rem] mx-auto" src={Client6} alt=""/>
+                <img loading='lazy' className="object-contain w-full h-[10rem] mx-auto" src={Client6} alt=""/>
             </div>
 
             <div className="bg-white h-40 flex shadow-lg items-center justify-center">
-                <img className="object-contain w-full h-24 mx-auto" src={Client7} alt=""/>
+                <img loading='lazy' className="object-contain w-full h-24 mx-auto" src={Client7} alt=""/>
             </div>
 
             <div className="bg-white h-40 flex shadow-lg items-center justify-center">
-                <img className="object-contain w-full h-24 mx-auto" src={Client8} alt=""/>
+                <img loading='lazy' className="object-contain w-full h-24 mx-auto" src={Client8} alt=""/>
             </div>
 
             <div className="bg-white h-40 flex shadow-lg items-center justify-center">
-                <img className="object-contain w-full h-24 mx-auto" src={Client9} alt=""/>
+                <img loading='lazy' className="object-contain w-full h-24 mx-auto" src={Client9} alt=""/>
             </div>
 
             <div className="bg-white h-40 flex shadow-lg items-center justify-center">
-                <img className="object-contain w-full mx-auto h-24" src={Client10} alt=""/>
+                <img loading='lazy' className="object-contain w-full mx-auto h-24" src={Client10} alt=""/>
             </div>
 
 

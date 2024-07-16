@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import Image from '../images/logocompany.png'; // Adjust the path based on your project structure
 
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+    const location = useLocation();
 
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
@@ -14,9 +15,15 @@ const Navbar = () => {
         setIsDropdownOpen(!isDropdownOpen);
     };
 
+    useEffect(() => {
+        // Close dropdown when location changes
+        setIsDropdownOpen(false);
+        setIsMenuOpen(false); // Optionally close the main menu as well
+    }, [location]);
+
     return (
         <nav className="bg-gray-200 border-gray-200 shadow-lg z-50">
-            <div className="flex flex-wrap justify-between items-center mx-auto p-2 max-w-screen-xl median:max-w-screen-median 2xl:max-w-screen-2xl  ">
+            <div className="flex flex-wrap justify-between items-center mx-auto p-2 max-w-screen-xl median:max-w-screen-median 2xl:max-w-screen-2xl">
                 <Link to="/">
                     <img src={Image} style={{ width: '180px' }} alt="Company Logo" />
                 </Link>
